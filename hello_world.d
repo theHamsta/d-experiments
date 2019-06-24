@@ -1,6 +1,10 @@
 import std.stdio;
 
-void main()
+void main(string[] args)
 {
     writeln("Hello World!");
+    foreach(a; args)
+    {
+        writeln(a);
+    }
 }
